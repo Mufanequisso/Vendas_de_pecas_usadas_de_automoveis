@@ -1,0 +1,37 @@
+ERROR - 2023-08-13 11:48:34 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'crud' in C:\xampp\htdocs\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'crud', 3306, '', 0)
+#1 C:\xampp\htdocs\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(39): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 C:\xampp\htdocs\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(26): App\Controllers\Home->getJantes()
+#5 C:\xampp\htdocs\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(934): App\Controllers\Home->jantes()
+#6 C:\xampp\htdocs\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'crud' in C:\xampp\htdocs\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(39): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#3 C:\xampp\htdocs\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(26): App\Controllers\Home->getJantes()
+#4 C:\xampp\htdocs\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(934): App\Controllers\Home->jantes()
+#5 C:\xampp\htdocs\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-08-13 11:48:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'crud'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Home.php(39): CodeIgniter\Database\BaseConnection->query('SELECT * FROM jantes')
+ 3 APPPATH\Controllers\Home.php(26): App\Controllers\Home->getJantes()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->jantes()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\public\\index.php')

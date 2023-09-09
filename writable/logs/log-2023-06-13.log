@@ -1,0 +1,335 @@
+ERROR - 2023-06-13 12:01:55 --> mysqli_sql_exception: Table 'vendas.vendas' doesn't exist in C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM v...', 0)
+#1 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(27): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(934): App\Controllers\Home->teste()
+#5 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2023-06-13 12:01:55 --> Table 'vendas.vendas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM vendas', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM vendas')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM vendas')
+ 4 APPPATH\Controllers\Home.php(27): CodeIgniter\Database\BaseConnection->query('SELECT * FROM vendas')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->teste()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\public\\index.php')
+ERROR - 2023-06-13 12:02:22 --> mysqli_sql_exception: Table 'vendas.vendas' doesn't exist in C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM v...', 0)
+#1 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(27): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(934): App\Controllers\Home->teste()
+#5 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2023-06-13 12:02:22 --> Table 'vendas.vendas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM vendas', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM vendas')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM vendas')
+ 4 APPPATH\Controllers\Home.php(27): CodeIgniter\Database\BaseConnection->query('SELECT * FROM vendas')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->teste()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\public\\index.php')
+ERROR - 2023-06-13 12:03:33 --> mysqli_sql_exception: Table 'vendas.vendas' doesn't exist in C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM v...', 0)
+#1 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(27): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(934): App\Controllers\Home->teste()
+#5 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2023-06-13 12:03:33 --> Table 'vendas.vendas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM vendas', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM vendas')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM vendas')
+ 4 APPPATH\Controllers\Home.php(27): CodeIgniter\Database\BaseConnection->query('SELECT * FROM vendas')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->teste()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\public\\index.php')
+ERROR - 2023-06-13 12:03:34 --> mysqli_sql_exception: Table 'vendas.vendas' doesn't exist in C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM v...', 0)
+#1 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(27): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(934): App\Controllers\Home->teste()
+#5 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2023-06-13 12:03:34 --> Table 'vendas.vendas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM vendas', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM vendas')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM vendas')
+ 4 APPPATH\Controllers\Home.php(27): CodeIgniter\Database\BaseConnection->query('SELECT * FROM vendas')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->teste()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\public\\index.php')
+ERROR - 2023-06-13 12:03:36 --> mysqli_sql_exception: Table 'vendas.vendas' doesn't exist in C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM v...', 0)
+#1 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(27): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(934): App\Controllers\Home->teste()
+#5 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2023-06-13 12:03:36 --> Table 'vendas.vendas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM vendas', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM vendas')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM vendas')
+ 4 APPPATH\Controllers\Home.php(27): CodeIgniter\Database\BaseConnection->query('SELECT * FROM vendas')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->teste()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\public\\index.php')
+CRITICAL - 2023-06-13 13:00:25 --> Undefined property: stdClass::$nome
+in APPPATH\Views\jantes.php on line 29.
+ 1 APPPATH\Views\jantes.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nome', 'C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\app\\Views\\jantes.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\app\\Views\\jantes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('jantes', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('jantes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->jantes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\public\\index.php')
+CRITICAL - 2023-06-13 13:01:27 --> Undefined property: stdClass::$nome
+in APPPATH\Views\jantes.php on line 29.
+ 1 APPPATH\Views\jantes.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nome', 'C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\app\\Views\\jantes.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\app\\Views\\jantes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('jantes', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('jantes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->jantes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\public\\index.php')
+CRITICAL - 2023-06-13 13:01:28 --> Undefined property: stdClass::$nome
+in APPPATH\Views\jantes.php on line 29.
+ 1 APPPATH\Views\jantes.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nome', 'C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\app\\Views\\jantes.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\app\\Views\\jantes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('jantes', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('jantes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->jantes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\public\\index.php')
+CRITICAL - 2023-06-13 13:10:18 --> Undefined property: stdClass::$Preco
+in APPPATH\Views\jantes.php on line 45.
+ 1 APPPATH\Views\jantes.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Preco', 'C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\app\\Views\\jantes.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\app\\Views\\jantes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('jantes', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('jantes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->jantes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\public\\index.php')
+CRITICAL - 2023-06-13 13:29:34 --> Undefined variable $jante
+in APPPATH\Views\jantes.php on line 15.
+ 1 APPPATH\Views\jantes.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jante', 'C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\app\\Views\\jantes.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\app\\Views\\jantes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('jantes', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('jantes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->jantes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\public\\index.php')
+ERROR - 2023-06-13 14:38:34 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'Paulinov'@'localhost' (using password: YES) in C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'Paulinov', '975744', 'vendas', 3306, '', 0)
+#1 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(25): App\Controllers\Home->getJantes()
+#5 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(934): App\Controllers\Home->jantes()
+#6 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#3 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(25): App\Controllers\Home->getJantes()
+#4 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(934): App\Controllers\Home->jantes()
+#5 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2023-06-13 14:38:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Home.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * FROM jantes')
+ 3 APPPATH\Controllers\Home.php(25): App\Controllers\Home->getJantes()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->jantes()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\public\\index.php')
+ERROR - 2023-06-13 14:38:52 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'Paulinov'@'localhost' (using password: YES) in C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'Paulinov', '975744', 'vendas', 3306, '', 0)
+#1 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(25): App\Controllers\Home->getJantes()
+#5 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(934): App\Controllers\Home->jantes()
+#6 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#3 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(25): App\Controllers\Home->getJantes()
+#4 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(934): App\Controllers\Home->jantes()
+#5 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2023-06-13 14:38:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Home.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * FROM jantes')
+ 3 APPPATH\Controllers\Home.php(25): App\Controllers\Home->getJantes()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->jantes()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\public\\index.php')
+ERROR - 2023-06-13 14:39:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'Paulinov'@'localhost' (using password: YES) in C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'Paulinov', '975744', 'vendas', 3306, '', 0)
+#1 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(25): App\Controllers\Home->getJantes()
+#5 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(934): App\Controllers\Home->jantes()
+#6 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#3 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(25): App\Controllers\Home->getJantes()
+#4 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(934): App\Controllers\Home->jantes()
+#5 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2023-06-13 14:39:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Home.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * FROM jantes')
+ 3 APPPATH\Controllers\Home.php(25): App\Controllers\Home->getJantes()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->jantes()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\public\\index.php')
+ERROR - 2023-06-13 20:29:12 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'vendas1' in C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'vendas1', 3306, '', 0)
+#1 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(25): App\Controllers\Home->getJantes()
+#5 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(934): App\Controllers\Home->jantes()
+#6 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'vendas1' in C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#3 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\app\Controllers\Home.php(25): App\Controllers\Home->getJantes()
+#4 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(934): App\Controllers\Home->jantes()
+#5 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\codeigniter4-framework_Facul\Vendas_de_Pecas_usadas\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2023-06-13 20:29:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'vendas1'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Home.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * FROM jantes')
+ 3 APPPATH\Controllers\Home.php(25): App\Controllers\Home->getJantes()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->jantes()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\public\\index.php')
+CRITICAL - 2023-06-13 20:54:32 --> Undefined property: stdClass::$adicionado_em
+in APPPATH\Views\jantes.php on line 20.
+ 1 APPPATH\Views\jantes.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$adicionado_em', 'C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\app\\Views\\jantes.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\app\\Views\\jantes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('jantes', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('jantes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->jantes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\codeigniter4-framework_Facul\\Vendas_de_Pecas_usadas\\public\\index.php')

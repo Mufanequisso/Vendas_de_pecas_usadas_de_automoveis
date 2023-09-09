@@ -1,0 +1,94 @@
+*{
+    
+    
+}
+
+body{
+ 
+   
+    /* background-image: url(/img/Abarth/Jantes/3ffaf2a1edbb2e3a9d32948bac8e21ee.jpg); */
+    background-size: cover;
+    background-attachment: fixed;
+    /* margin: 15px; */
+    /* padding: 15px; */
+    
+
+    
+}
+
+.foo{
+    margin: 400px;
+    
+}
+
+.afastar1{
+    
+    
+    padding-top: 200px;
+}
+.afastar2{
+    padding-top: 30px;
+}
+
+.imagens1{
+    height: 300px;
+    width: 300px;
+}
+
+.li{
+    
+    text-decoration: none;
+    justify-content: center;
+    color: tomato;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.li:hover{
+    
+    text-decoration: none;
+    justify-content: center;
+    color: gray;
+    
+}
+
+nav.navbar-transparente{
+    background:rgba(0,0,0,0.6);
+    /* padding: 25px 0px; */
+}
+
+.afastarnav{
+    margin-bottom:40px;
+}
+
+.foot_link{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+.foot_link:hover{
+    text-decoration: none;
+    color: blue;
+    font-size: larger;
+}
+.colecaolink{
+
+    text-decoration: none;
+    color: rgb(129, 75, 65);
+    font-size: larger;
+
+}
+
+.colecaolink:hover{
+
+    text-decoration: none;
+    color: rgb(52, 227, 186);
+    font-size: larger;
+
+}
+
+.ampliar{
+    padding-left: 50px;
+    margin-left: 5px;
+}
+
